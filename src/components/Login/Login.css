@@ -1,0 +1,9 @@
+.logina{ width: 100%; margin-top:5%;}
+.logina form{ width: 100%; }
+.logina form ul{ width: 100%; overflow: hidden;}
+.logina form ul li{ width: 90%; padding: 4% 5%; background-color: #fff; margin-bottom: 2%; overflow: hidden; }
+.logina form ul li img{ width:7%; vertical-align: middle;}
+.logina form ul li label{ font-size: 1.45em; vertical-align: middle; color: #333; margin:0 3%; }
+.logina form ul li input{width: 70%; display: inline-block;vertical-align: middle; font-size: 1.4875em; color: #666; border: none;}
+.logina form input[type="button"]{ width: 94%; margin: 5% 3%; padding: 4% 0;background-color:rgb(118, 212, 155)
+    ;color: #fff; font-size: 1.7em; border-radius: 0.3em; border: none;}

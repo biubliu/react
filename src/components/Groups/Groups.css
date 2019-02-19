@@ -1,0 +1,187 @@
+.groups-box,
+.groupsdetails-box{
+    padding-top: 10px;
+}
+.groups-box .pay-m { padding: 10px;}
+.groups-box .tuan_g_core::before {
+    background-position: -129px -9px;
+    height: 31px;
+    width: 31px;
+}
+.groups-box .tuan_g_btn { height: 31px;}
+.groups-box .tuan_g_btn::after {
+    right: 5px;
+    top: 10px;
+}
+.groups-box .tuan_g_price {
+    width: 98px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 33px;
+}
+.groups-box .tuan_g_price span { font-size: .75rem;}
+.groups-box .tuan_g_price b { font-size: .875rem;}
+.groups-box .groups-dowm-bnt{ 
+    padding: 5px;
+    margin: 5px;
+    line-height: 34px;
+    color: #CE3B41;
+    border-top: 1px solid #EDEDED;
+}
+.groups-box .groups-dowm-bnt .btn{
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 4px 2px;
+    padding: 5px 7px;
+    border: 1px solid #CCC;
+    color: #666;
+    font-size: 0.75rem;
+}
+/*
+ *  groupsdetails 拼团详情
+ */
+.win-groups{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: .75rem;
+    background-color: #e6efdf;
+    border-top: 1px solid #78a154;
+    border-bottom: 1px solid #78a154;
+}
+.win-groups .win-icon{ 
+    font-size:1rem;
+    color: #78a154;
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+.groups-m .mc-sum-box {
+    background-color: #FFF;
+    padding: 10px;
+}
+h2 .mc-t {
+    font-size: 0.75rem;
+    color: #CE3B41;
+}
+h2 .mc-t>b{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.groups-avata{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.groups-avata-img{
+    height: 110px;
+    padding-top: 20px;
+}
+.groups-avata-img ul{
+    width: 192px;
+    margin: 0 auto;
+}
+.groups-avata-img ul li,
+.man-name ul li .man-name-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:2px solid #fff;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+}
+.groups-avata-img ul.colonel{
+    position: relative;
+
+}
+.groups-avata-img ul.colonel::before,
+.win-icon::before{
+    background-size: 125px 355px;
+    background-position: -95px -262px;
+    content: " ";
+    height: 30px;
+    left: 32px;
+    position: absolute;
+    top: -10px;
+    width: 30px;
+}
+.win-icon::before{
+    background-position: -98px -231px;
+    height: 25px;
+    left: -10px;
+    top: 0px;
+    width: 25px;
+}
+.groups-avata p.man-number{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+}
+.groups-avata p.man-number>span{ 
+    padding: 0 5px;
+    font-size: 1.2rem;
+    color: #CE3B41;
+}
+.count_down2 {
+    height: 30px;
+    color: #666;
+    line-height: 30px;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+.count_down2 span {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+.man-name ul li{
+    height: 55px;
+    line-height: 55px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #D7D7D7;
+    color: #999;
+}    
+.man-name ul li.colonel{
+    background-color: #333;
+    color: #fff;
+}
+.man-name ul li.colonel span{ 
+    float: right;
+    font-size: .75rem;
+    color: #8C8C8C;
+}
+.invite-btn{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 40px;
+    background-color: #CE3B41;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+@media screen and (min-width: 640px){ 
+    .invite-btn{ max-width: 640px;}
+}
+.pay-box,
+.groups-box,
+.groupsdetails-box{ background-color: #f2f2f2;}
+.pay-box .mc-sum-box{ padding: 10px;}
+.pay-m,
+.groups-m{
+    background-color: #fff;
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 10px;
+    overflow: hidden;
+}

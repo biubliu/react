@@ -1,0 +1,23 @@
+@media only screen {
+    .am-u-sm-2 { width: 16.66666667%;}
+    }
+    #register-b .am-form input{
+        width: 83%;
+        height: 40px;
+    }
+    #register-b .registericon{
+        margin-top: 9px;
+        display: block;
+    }
+    .registericon-user::after,
+    .registericon-email::after,
+    .registericon-password::after,
+    .registericon-password2::after{
+        background-position: -321px -33px;
+        content: "";
+        display: inline-block;
+        height: 17px;
+        margin-left: 5px;
+        vertical-align: -1px;
+        width: 18px;
+    }

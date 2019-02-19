@@ -1,0 +1,44 @@
+[
+    {
+        "name":"未使用",
+        "data":
+        [{
+    "id":"1",
+    "img": "images/cou-five.jpg",
+    "title":"满20可使用",
+    "indate":"有效期至: 2017-1-1"
+},
+{
+    "id":"2",
+    "img": "images/cou-ten.jpg",
+    "title":"满40可使用",
+    "indate":"有效期至: 2017-1-1"
+}]
+    }
+,
+{
+    "name":"已使用",
+    "data":
+    [
+    {
+        "id":"1",
+        "img": "images/cou-ten.jpg",
+        "title":"购买50元苹果",
+        "indate":"已使用"
+    }
+]
+}
+,
+{
+    "name":"已过期",
+    "data":
+    [
+    {
+        "id":"1",
+        "img": "images/cou-ten.jpg",
+        "title":"满40元即可使用【已过期】",
+        "indate":"有效期至: 2015-11-11"
+    }
+]
+}
+]

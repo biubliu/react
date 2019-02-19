@@ -1,0 +1,52 @@
+
+{
+    "name":"全部订单",
+    "data":
+        [{
+        "id":"1",
+        "img": "images/pay1.jpg",
+        "title":"越南进口白肉火龙果",
+        "weight":"2个装",
+        "num":"1",
+        "price":"14.00/件",
+        "pocket":"14.00",
+        "payment":"已付款, 已发货"
+    },{
+        "id":"1",
+        "img": "images/myorder2.jpg",
+        "title":"优选越南青皮金煌芒果",
+        "weight":"4斤装",
+        "num":"1",
+        "price":"49.00/件",
+        "pocket":"49.00",
+        "payment":"未付款"
+    }]},
+{
+    "name":"代付款",
+    "data":
+    [{
+        "id":"1",
+        "img": "images/myorder2.jpg",
+        "title":"优选越南青皮金煌芒果",
+        "weight":"4斤装",
+        "num":"1",
+        "price":"49.00/件",
+        "pocket":"49.00",
+        "payment":"未付款"
+    }]
+},{
+    "name":"待收货",
+    "data":
+    [{
+        "id":"1",
+        "img": "images/pay1.jpg",
+        "title":"越南进口白肉火龙果",
+        "weight":"2个装",
+        "num":"1",
+        "price":"14.00/件",
+        "pocket":"14.00",
+        "payment":"已付款, 已发货"
+    }]
+}
+
+
